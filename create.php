@@ -4,7 +4,7 @@ $username = "ezyro_36181885";
 $password = "a8a24cbdf";
 $dbname = "ezyro_36181885_chat_app";
 
-/*
+
 // Create connection
 $conn1 = mysqli_connect($servername, $username, $password);
 // Check connection
@@ -18,7 +18,7 @@ if (mysqli_query($conn1, $sql)) {
   echo "Database created successfully";
 } else {
   echo "Error creating database: " . mysqli_error($conn1);
-}*/
+}
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
